@@ -1,2 +1,2 @@
-# tiny_rpc
-用python实现一个简单的rpc框架
+# huatian-funny
+花田实验
