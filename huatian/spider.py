@@ -44,13 +44,13 @@ SEARCH_HEADERS = {
 def login():
     """登陆花田"""
     data = {
-        'username':'xxxxxx',
-        'password':'xxxxxx',
-        'url':'http://love.163.com/?checkUser=1&vendor=love.pLogin',
-        'product':'ht',
-        'type':'1',
-        'append':'1',
-        'savelogin':'1',
+        'username': 'xxxxxx',
+        'password': 'xxxxxx',
+        'url': 'http://love.163.com/?checkUser=1&vendor=love.pLogin',
+        'product': 'ht',
+        'type': '1',
+        'append': '1',
+        'savelogin': '1',
     }
     response = session.post('https://reg.163.com/logins.jsp',
                             headers=LOGIN_HEADERS, data=urlencode(data))
